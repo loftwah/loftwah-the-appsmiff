@@ -24,6 +24,7 @@ services:
     image: maildev/maildev
     ports:
       - "1080:1080"
+      - "1025:1025"
     environment:
       - MAILDEV_OUTGOING_USER=loftwah@local.com
       - MAILDEV_OUTGOING_PASS=loftwah
